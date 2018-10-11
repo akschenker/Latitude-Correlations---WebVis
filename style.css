@@ -1,0 +1,35 @@
+body {
+    background-color:lightblue;
+}
+.row {
+    margin-top: 50px;
+}
+img {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    /* position: static; */
+}
+.white-bg {
+    background-color: white;
+    border-style: solid;
+}
+#vis {
+    margin-left: 40px;
+    margin-right: 0px;
+    height: 600px;
+}
+#sum {
+    margin-left: 40px;
+    height: 600px;
+}
+#sumpic {
+    float: left;
+}
+p {
+    font-size: 20px;
+}
+h2, h4 {
+    padding-top: 25px;
+    padding-left: 15px;
+}
