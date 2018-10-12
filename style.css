@@ -13,13 +13,11 @@ img {
 #vis {
     margin-left: 40px;
     margin-right: 0px;
-    height: 600px;
-    border-style: solid;
 }
 #sum {
     margin-left: 40px;
+    margin-bottom: 20px;
     height: 600px;
-    border-style: solid;
 }
 #sumpic {
     float: left;
@@ -44,4 +42,26 @@ h3 {
 }
 .shorter {
     height: 400px;
+}
+.blueborder {
+    border-style: solid;
+    border-color: #158CBA;
+}
+#smscrn {
+    visibility: hidden;
+}
+@media (max-width: 990px) {
+    #smscrn {
+        visibility: visible;
+    }
+    #smscrn img{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #lgscrn {
+        display: none;
+    }
+    .shorter {
+        height: 300px;
+    }
 }
